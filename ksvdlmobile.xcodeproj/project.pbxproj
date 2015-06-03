@@ -26,7 +26,8 @@
 		59649F031B0CC48400E5F1AD /* AuthAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 59649F021B0CC48400E5F1AD /* AuthAPIClient.m */; };
 		CD1B063E1B1C5BD3009CFDE8 /* KSVDL-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1B063D1B1C5BD3009CFDE8 /* KSVDL-Button.png */; };
 		CD1B06401B1CCCA6009CFDE8 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1B063F1B1CCCA6009CFDE8 /* iAd.framework */; };
-		CD1B06431B1CDB82009CFDE8 /* Main1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1B06411B1CDB82009CFDE8 /* Main1.storyboard */; };
+		CDA946771B1F6B76004560A9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA946761B1F6B76004560A9 /* SWRevealViewController.m */; };
+		CDA9467A1B1F9597004560A9 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA946791B1F9597004560A9 /* NavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +74,10 @@
 		59649F021B0CC48400E5F1AD /* AuthAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthAPIClient.m; sourceTree = "<group>"; };
 		CD1B063D1B1C5BD3009CFDE8 /* KSVDL-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "KSVDL-Button.png"; path = "../../../Desktop/KSVDL-Button.png"; sourceTree = "<group>"; };
 		CD1B063F1B1CCCA6009CFDE8 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		CD1B06421B1CDB82009CFDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main1.storyboard; sourceTree = "<group>"; };
+		CDA946751B1F6B76004560A9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CDA946761B1F6B76004560A9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		CDA946781B1F9597004560A9 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		CDA946791B1F9597004560A9 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
 		DE428B8D1A6416EADEFDBF9C /* Pods-ksvdlmobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ksvdlmobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ksvdlmobile/Pods-ksvdlmobile.debug.xcconfig"; sourceTree = "<group>"; };
 		E30B9D118234C0DD47CBB66C /* libPods-ksvdlmobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ksvdlmobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -148,7 +152,6 @@
 				59649ECC1AEF1E0A00E5F1AD /* AppDelegate.h */,
 				59649ECD1AEF1E0A00E5F1AD /* AppDelegate.m */,
 				59649ED21AEF1E0A00E5F1AD /* Main.storyboard */,
-				CD1B06411B1CDB82009CFDE8 /* Main1.storyboard */,
 				59649ED51AEF1E0A00E5F1AD /* Images.xcassets */,
 				59649ED71AEF1E0A00E5F1AD /* LaunchScreen.xib */,
 				59649EC81AEF1E0A00E5F1AD /* Supporting Files */,
@@ -159,6 +162,7 @@
 		59649EC81AEF1E0A00E5F1AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CDA946741B1F6B76004560A9 /* SlideOutMenuFiles */,
 				59649EC91AEF1E0A00E5F1AD /* Info.plist */,
 				59649ECA1AEF1E0A00E5F1AD /* main.m */,
 			);
@@ -188,6 +192,8 @@
 				59649ECF1AEF1E0A00E5F1AD /* LoginViewController.h */,
 				59649ED01AEF1E0A00E5F1AD /* LoginViewController.m */,
 				5959A3021B0D18C2005821B0 /* HomeViewController.h */,
+				CDA946781B1F9597004560A9 /* NavigationViewController.h */,
+				CDA946791B1F9597004560A9 /* NavigationViewController.m */,
 				5959A3031B0D18C2005821B0 /* HomeViewController.m */,
 				5933A6BC1B14AFAE00831D7D /* AccessionTableViewController.h */,
 				5933A6BD1B14AFAE00831D7D /* AccessionTableViewController.m */,
@@ -219,6 +225,16 @@
 				59649F021B0CC48400E5F1AD /* AuthAPIClient.m */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		CDA946741B1F6B76004560A9 /* SlideOutMenuFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CDA946751B1F6B76004560A9 /* SWRevealViewController.h */,
+				CDA946761B1F6B76004560A9 /* SWRevealViewController.m */,
+			);
+			name = SlideOutMenuFiles;
+			path = ../../../Desktop/SlideOutMenuFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,7 +319,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD1B06431B1CDB82009CFDE8 /* Main1.storyboard in Resources */,
 				CD1B063E1B1C5BD3009CFDE8 /* KSVDL-Button.png in Resources */,
 				59649ED41AEF1E0A00E5F1AD /* Main.storyboard in Resources */,
 				59649ED91AEF1E0A00E5F1AD /* LaunchScreen.xib in Resources */,
@@ -365,10 +380,12 @@
 				59649EF41AF1190400E5F1AD /* AccessCredential.m in Sources */,
 				59649EFA1AF12A3E00E5F1AD /* KeychainItemWrapper.m in Sources */,
 				5959A3041B0D18C2005821B0 /* HomeViewController.m in Sources */,
+				CDA9467A1B1F9597004560A9 /* NavigationViewController.m in Sources */,
 				59649F031B0CC48400E5F1AD /* AuthAPIClient.m in Sources */,
 				5933A6BE1B14AFAE00831D7D /* AccessionTableViewController.m in Sources */,
 				59649F001B0B82DC00E5F1AD /* AFOAuth2Client.m in Sources */,
 				59649ECB1AEF1E0A00E5F1AD /* main.m in Sources */,
+				CDA946771B1F6B76004560A9 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,14 +422,6 @@
 				59649ED81AEF1E0A00E5F1AD /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		CD1B06411B1CDB82009CFDE8 /* Main1.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD1B06421B1CDB82009CFDE8 /* Base */,
-			);
-			name = Main1.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

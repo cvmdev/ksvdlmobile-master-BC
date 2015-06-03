@@ -10,6 +10,8 @@
 	<string>ksvdlmobile</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>E867345AE6CCA285FB42ACA7A12EBCB425A8A917</key>
+		<string>https://github.com/cvmdev/ksvdlmobile-master-BC.git</string>
 		<key>ECC3BE2529BCF9F5F1A0AE733EDC888C658E74DF</key>
 		<string>https://github.com/cvmdev/ksvdlmobile.git</string>
 	</dict>
@@ -17,15 +19,17 @@
 	<string>ksvdlmobile.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>ECC3BE2529BCF9F5F1A0AE733EDC888C658E74DF</key>
+		<key>E867345AE6CCA285FB42ACA7A12EBCB425A8A917</key>
 		<string>..</string>
+		<key>ECC3BE2529BCF9F5F1A0AE733EDC888C658E74DF</key>
+		<string>../../ksvdlmobile</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/cvmdev/ksvdlmobile.git</string>
+	<string>https://github.com/cvmdev/ksvdlmobile-master-BC.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>ECC3BE2529BCF9F5F1A0AE733EDC888C658E74DF</string>
+	<string>E867345AE6CCA285FB42ACA7A12EBCB425A8A917</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>ECC3BE2529BCF9F5F1A0AE733EDC888C658E74DF</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ksvdlmobile</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E867345AE6CCA285FB42ACA7A12EBCB425A8A917</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ksvdlmobile-master-BC</string>
 		</dict>
 	</array>
 </dict>

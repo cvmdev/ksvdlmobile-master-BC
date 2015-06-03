@@ -8,7 +8,7 @@
 
 #import "HomeViewController.h"
 #import "AFOAuth2Client.h"
-
+#import "SWRevealViewController.h"
 
 
 @implementation HomeViewController
@@ -17,6 +17,9 @@
 {
     [super viewDidLoad];
   /*  _imageview.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://www.vet.k-state.edu/images/development/lifelines/1501/Lifelines-banner-2015.jpg"]]];*/
+    _barButton.target = self.revealViewController;
+    _barButton.action = @selector(revealToggle:);
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
 }
 
 - (IBAction)testfeessite:(id)sender {
